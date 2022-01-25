@@ -70,7 +70,6 @@ export default function PaginaInicial() {
           styleSheet={{
             display: "flex",
             alignItems: "center",
-            // justifyContent: "space-between",
             flexDirection: {
               xs: "column",
               sm: "row",
@@ -82,7 +81,8 @@ export default function PaginaInicial() {
             padding: "50px",
             margin: "16px",
             boxShadow: "0 2px 10px 0 rgb(0 0 0 / 20%)",
-            backgroundColor: appConfig.theme.colors.neutrals[700],
+            // backgroundColor: appConfig.theme.colors.neutrals[700],
+            backgroundColor: 'rgba(33, 41, 49, 0.7)',
           }}
         >
           {/* Photo Area */}
@@ -91,14 +91,11 @@ export default function PaginaInicial() {
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              maxWidth: "200px",
+              maxWidth: "300px",
               padding: "16px",
               backgroundColor: appConfig.theme.colors.neutrals[800],
-              border: "1px solid",
-              borderColor: appConfig.theme.colors.neutrals[999],
               borderRadius: "10px",
               flex: 1,
-              minHeight: "240px",
               marginBottom:'30px'
             }}
           >
